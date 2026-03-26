@@ -421,6 +421,13 @@
       background:linear-gradient(180deg, #eef5ff, #ffffff);
     }
 
+    .portrait img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+   }
+
     .leader-meta small{
       display:block;
       color:var(--blue);
@@ -897,59 +904,7 @@
 
         <div class="hero-card" aria-label="School banner image">  
           <div class="hero-badge">🌟 प्रेरणादायक • समावेशी • भविष्य के लिए तैयार</div>
-          <svg viewBox="0 0 640 460" role="img" aria-label="Illustration of the school campus">
-            <defs>
-              <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
-                <stop offset="0%" stop-color="#dcedff"/>
-                <stop offset="100%" stop-color="#f8fbff"/>
-              </linearGradient>
-              <linearGradient id="roof" x1="0" x2="1">
-                <stop offset="0%" stop-color="#245ea8"/>
-                <stop offset="100%" stop-color="#3f86de"/>
-              </linearGradient>
-            </defs>
-            <rect width="640" height="460" fill="url(#sky)"/>
-            <circle cx="543" cy="85" r="42" fill="#fff2b8"/>
-            <rect y="322" width="640" height="138" fill="#cfe4b8"/>
-            <rect y="360" width="640" height="100" fill="#a7ca82"/>
-            <rect x="110" y="120" width="420" height="205" rx="18" fill="#ffffff" stroke="#c9daeb" stroke-width="4"/>
-            <polygon points="88,120 320,42 552,120" fill="url(#roof)"/>
-            <rect x="312" y="52" width="12" height="74" fill="#33557d"/>
-            <path d="M324 54 L366 74 L324 94 Z" fill="#ffcd4d"/>
-            <rect x="160" y="170" width="74" height="62" rx="10" fill="#bfe0ff"/>
-            <rect x="255" y="170" width="74" height="62" rx="10" fill="#bfe0ff"/>
-            <rect x="350" y="170" width="74" height="62" rx="10" fill="#bfe0ff"/>
-            <rect x="445" y="170" width="36" height="62" rx="10" fill="#bfe0ff"/>
-            <rect x="160" y="248" width="74" height="36" rx="10" fill="#bfe0ff"/>
-            <rect x="255" y="248" width="74" height="36" rx="10" fill="#bfe0ff"/>
-            <rect x="350" y="248" width="74" height="36" rx="10" fill="#bfe0ff"/>
-            <rect x="280" y="226" width="78" height="99" rx="8" fill="#7b5436"/>
-            <rect x="297" y="248" width="16" height="77" fill="#8d6441"/>
-            <circle cx="126" cy="285" r="8" fill="#9cc987"/>
-            <rect x="119" y="286" width="14" height="32" fill="#7b5b38"/>
-            <circle cx="520" cy="285" r="10" fill="#9cc987"/>
-            <rect x="513" y="288" width="14" height="32" fill="#7b5b38"/>
-            <circle cx="84" cy="297" r="26" fill="#74b259"/>
-            <rect x="78" y="297" width="12" height="28" fill="#7b5b38"/>
-            <circle cx="558" cy="302" r="28" fill="#74b259"/>
-            <rect x="552" y="305" width="12" height="24" fill="#7b5b38"/>
-            <rect x="0" y="336" width="640" height="40" fill="#7f8d98"/>
-            <rect x="0" y="354" width="640" height="6" fill="#6c7881"/>
-            <g fill="#fff">
-              <rect x="35" y="352" width="58" height="5" rx="3"/>
-              <rect x="125" y="352" width="58" height="5" rx="3"/>
-              <rect x="215" y="352" width="58" height="5" rx="3"/>
-              <rect x="305" y="352" width="58" height="5" rx="3"/>
-              <rect x="395" y="352" width="58" height="5" rx="3"/>
-              <rect x="485" y="352" width="58" height="5" rx="3"/>
-            </g>
-            <g>
-              <circle cx="228" cy="332" r="10" fill="#f3c9a5"/>
-              <rect x="220" y="342" width="16" height="24" rx="7" fill="#245ea8"/>
-              <circle cx="405" cy="334" r="10" fill="#f0c4a0"/>
-              <rect x="397" y="344" width="16" height="22" rx="7" fill="#ffcd4d"/>
-            </g>
-          </svg>
+          <img src="banner.jpeg" alt="School Banner">
           <div class="hero-foot">
             <div class="mini">📚 मूल्य-आधारित शिक्षा के साथ शैक्षणिक उत्कृष्टता</div>
             <div class="mini">🚌 सुरक्षित परिवहन • स्मार्ट क्लासरूम • सक्रिय परिसर जीवन</div>
@@ -1014,18 +969,7 @@
         <div class="leaders">
           <article class="leader-card">
             <div class="portrait" aria-label="Principal photograph">
-              <svg viewBox="0 0 220 240" role="img" aria-label="Portrait of the Principal">
-                <rect width="220" height="240" fill="#eef5ff"/>
-                <circle cx="110" cy="72" r="40" fill="#f3c9a6"/>
-                <path d="M68 78c0-30 19-50 46-50 29 0 49 21 49 51v13H68z" fill="#40556c"/>
-                <rect x="92" y="107" width="36" height="28" rx="10" fill="#efc29f"/>
-                <path d="M50 236c7-46 32-78 60-78s53 32 60 78" fill="#245ea8"/>
-                <path d="M110 138l18 22-18 18-18-18z" fill="#ffd458"/>
-                <path d="M78 236v-28l32-18 32 18v28" fill="#17385f"/>
-                <circle cx="95" cy="78" r="3.5" fill="#2c3745"/>
-                <circle cx="125" cy="78" r="3.5" fill="#2c3745"/>
-                <path d="M97 95c8 7 18 7 26 0" stroke="#c38167" stroke-width="3" fill="none" stroke-linecap="round"/>
-              </svg>
+              <img src="principal.png" alt="Principal Photo">
             </div>
             <div class="leader-meta">
               <small>प्रधानाचार्य का संदेश</small>
@@ -1038,18 +982,7 @@
 
           <article class="leader-card">
             <div class="portrait" aria-label="Director photograph">
-              <svg viewBox="0 0 220 240" role="img" aria-label="Portrait of the Director">
-                <rect width="220" height="240" fill="#fff9e8"/>
-                <circle cx="110" cy="72" r="40" fill="#f1c6a2"/>
-                <path d="M64 74c4-33 23-48 46-48 31 0 52 22 52 52v11H64z" fill="#523c3c"/>
-                <path d="M88 110h44v28c0 8-8 14-22 14s-22-6-22-14z" fill="#efc29f"/>
-                <path d="M52 236c8-48 30-79 58-79 32 0 54 31 58 79" fill="#1f4e86"/>
-                <path d="M110 141l16 18-16 20-16-20z" fill="#ffcf4d"/>
-                <path d="M78 236v-28l32-20 32 20v28" fill="#132f51"/>
-                <circle cx="96" cy="78" r="3.5" fill="#2c2c2c"/>
-                <circle cx="124" cy="78" r="3.5" fill="#2c2c2c"/>
-                <path d="M98 96c7 6 17 6 24 0" stroke="#c07d63" stroke-width="3" fill="none" stroke-linecap="round"/>
-              </svg>
+              <img src="director.jpeg" alt="Director Photo">
             </div>
             <div class="leader-meta">
               <small>विद्यालय निदेशक का संदेश</small>
@@ -1107,52 +1040,17 @@
         <div class="gallery-grid">
           <figure class="gallery-item">
             <div class="gallery-media">
-              <svg viewBox="0 0 420 300" role="img" aria-label="School campus image">
-                <rect width="420" height="300" fill="#eaf4ff"/>
-                <circle cx="343" cy="70" r="30" fill="#fff2b8"/>
-                <rect y="212" width="420" height="88" fill="#bedca2"/>
-                <rect x="85" y="92" width="250" height="120" rx="14" fill="#fff" stroke="#c9daeb" stroke-width="3"/>
-                <polygon points="72,92 210,42 348,92" fill="#3177c9"/>
-                <rect x="114" y="126" width="48" height="38" rx="8" fill="#bfe0ff"/>
-                <rect x="184" y="126" width="48" height="38" rx="8" fill="#bfe0ff"/>
-                <rect x="254" y="126" width="48" height="38" rx="8" fill="#bfe0ff"/>
-                <rect x="188" y="157" width="44" height="55" rx="6" fill="#7a5334"/>
-                <circle cx="56" cy="181" r="22" fill="#73b159"/>
-                <rect x="51" y="181" width="10" height="24" fill="#7a5334"/>
-                <circle cx="370" cy="186" r="24" fill="#73b159"/>
-                <rect x="365" y="186" width="10" height="24" fill="#7a5334"/>
-              </svg>
+              <img src="teachers.jpeg" alt="Teacher Photo">
             </div>
             <figcaption class="gallery-caption">
-              <strong>विद्यालय परिसर</strong>
-              <span>स्वागतपूर्ण प्रवेश द्वार और हरियाली से भरे खुले स्थान</span>
+              <strong>शिक्षक वर्ग</strong>
+              <span>अनुभवी और समर्पित शिक्षक, जो छात्रों का मार्गदर्शन करते हैं</span>
             </figcaption>
           </figure>
 
           <figure class="gallery-item">
             <div class="gallery-media">
-              <svg viewBox="0 0 420 300" role="img" aria-label="Classroom image">
-                <rect width="420" height="300" fill="#f6fbff"/>
-                <rect y="220" width="420" height="80" fill="#efdab5"/>
-                <rect x="35" y="32" width="92" height="64" rx="8" fill="#bfe0ff"/>
-                <rect x="230" y="36" width="152" height="82" rx="10" fill="#7fb0e4"/>
-                <rect x="244" y="50" width="124" height="54" rx="6" fill="#2b5f99"/>
-                <g stroke="#d8e9ff" stroke-width="4">
-                  <line x1="264" y1="68" x2="350" y2="68"/>
-                  <line x1="264" y1="84" x2="330" y2="84"/>
-                </g>
-                <circle cx="161" cy="128" r="14" fill="#f2c6a0"/>
-                <rect x="149" y="142" width="24" height="42" rx="8" fill="#245ea8"/>
-                <rect x="70" y="180" width="85" height="18" rx="8" fill="#a97951"/>
-                <rect x="165" y="180" width="85" height="18" rx="8" fill="#a97951"/>
-                <rect x="260" y="180" width="85" height="18" rx="8" fill="#a97951"/>
-                <rect x="88" y="198" width="8" height="25" fill="#8e6540"/>
-                <rect x="129" y="198" width="8" height="25" fill="#8e6540"/>
-                <rect x="183" y="198" width="8" height="25" fill="#8e6540"/>
-                <rect x="224" y="198" width="8" height="25" fill="#8e6540"/>
-                <rect x="278" y="198" width="8" height="25" fill="#8e6540"/>
-                <rect x="319" y="198" width="8" height="25" fill="#8e6540"/>
-              </svg>
+              <img src="rangoli.jpeg" alt="Rangoli Photo">
             </div>
             <figcaption class="gallery-caption">
               <strong>रंगोली प्रतियोगिता</strong>
@@ -1162,47 +1060,17 @@
 
           <figure class="gallery-item">
             <div class="gallery-media">
-              <svg viewBox="0 0 420 300" role="img" aria-label="Sports event image">
-                <rect width="420" height="300" fill="#e8f6ff"/>
-                <rect y="188" width="420" height="112" fill="#73ba58"/>
-                <rect y="226" width="420" height="74" fill="#d47055"/>
-                <path d="M0 226h420" stroke="#fff" stroke-width="3"/>
-                <path d="M40 245h340" stroke="#fff" stroke-width="3" stroke-dasharray="12 10"/>
-                <path d="M55 205h310" stroke="#e9f7d5" stroke-width="4"/>
-                <circle cx="108" cy="210" r="12" fill="#f1c49d"/>
-                <rect x="100" y="222" width="16" height="36" rx="8" fill="#245ea8"/>
-                <circle cx="216" cy="194" r="12" fill="#f1c49d"/>
-                <rect x="208" y="206" width="16" height="40" rx="8" fill="#ffd24e"/>
-                <circle cx="324" cy="214" r="12" fill="#f1c49d"/>
-                <rect x="316" y="226" width="16" height="34" rx="8" fill="#d94d4d"/>
-                <rect x="35" y="40" width="54" height="34" rx="8" fill="#ffffff" stroke="#c9daeb"/>
-                <text x="62" y="62" text-anchor="middle" font-size="18" font-family="sans-serif" fill="#245ea8">🏆</text>
-              </svg>
+              <img src="dance.jpeg" alt="Dance Program Photo">
             </div>
             <figcaption class="gallery-caption">
-              <strong>खेल गतिविधियाँ</strong>
-              <span>टीम स्पिरिट, फिटनेस, और स्वस्थ प्रतिस्पर्धा</span>
+              <strong>नृत्य कार्यक्रम</strong>
+              <span>विद्यालय में नृत्य गतिविधियाँ आयोजित की जाती हैं।</span>
             </figcaption>
           </figure>
 
           <figure class="gallery-item">
             <div class="gallery-media">
-              <svg viewBox="0 0 420 300" role="img" aria-label="Annual function image">
-                <rect width="420" height="300" fill="#fff7e7"/>
-                <rect y="210" width="420" height="90" fill="#6b4c7c"/>
-                <rect x="44" y="44" width="40" height="166" fill="#c43f4d"/>
-                <rect x="336" y="44" width="40" height="166" fill="#c43f4d"/>
-                <rect x="84" y="44" width="252" height="26" fill="#d86d79"/>
-                <rect x="110" y="90" width="200" height="88" rx="12" fill="#f8edc8"/>
-                <circle cx="155" cy="188" r="12" fill="#f1c39e"/>
-                <rect x="147" y="200" width="16" height="36" rx="8" fill="#245ea8"/>
-                <circle cx="210" cy="174" r="12" fill="#f1c39e"/>
-                <rect x="202" y="186" width="16" height="48" rx="8" fill="#ffcf4d"/>
-                <circle cx="265" cy="188" r="12" fill="#f1c39e"/>
-                <rect x="257" y="200" width="16" height="36" rx="8" fill="#45a06e"/>
-                <text x="124" y="120" font-size="20" font-family="sans-serif" fill="#245ea8">♫</text>
-                <text x="286" y="120" font-size="20" font-family="sans-serif" fill="#245ea8">★</text>
-              </svg>
+              <img src="jan.jpeg" alt="january Photo">
             </div>
             <figcaption class="gallery-caption">
               <strong>26 जनवरी (गणतंत्र दिवस)</strong>
@@ -1212,44 +1080,17 @@
 
           <figure class="gallery-item">
             <div class="gallery-media">
-              <svg viewBox="0 0 420 300" role="img" aria-label="Science lab image">
-                <rect width="420" height="300" fill="#eef9ff"/>
-                <rect y="226" width="420" height="74" fill="#d6c4aa"/>
-                <rect x="30" y="70" width="360" height="24" rx="10" fill="#8ab3e0"/>
-                <rect x="50" y="94" width="320" height="112" rx="12" fill="#ffffff" stroke="#d7e5f2"/>
-                <rect x="72" y="140" width="276" height="14" rx="7" fill="#eef5ff"/>
-                <path d="M100 182h34l-8-28h-18z" fill="#70b6ff"/>
-                <path d="M168 182h30v-36h-30z" fill="#ffcf4d"/>
-                <path d="M246 182h40l-10-34h-20z" fill="#7cc38a"/>
-                <circle cx="320" cy="110" r="13" fill="#245ea8"/>
-                <rect x="95" y="182" width="44" height="12" rx="6" fill="#84a9d1"/>
-                <rect x="162" y="182" width="42" height="12" rx="6" fill="#84a9d1"/>
-                <rect x="241" y="182" width="50" height="12" rx="6" fill="#84a9d1"/>
-              </svg>
+              <img src="augu.jpeg" alt="August Photo">
             </div>
             <figcaption class="gallery-caption">
               <strong>15 अगस्त (स्वतंत्रता दिवस)</strong>
-              <span>Hands-on exploration and practical learning</span>
+              <span>देशभक्ति, एकता और गर्व के साथ स्वतंत्रता दिवस का उत्सव</span>
             </figcaption>
           </figure>
 
           <figure class="gallery-item">
             <div class="gallery-media">
-              <svg viewBox="0 0 420 300" role="img" aria-label="Library image">
-                <rect width="420" height="300" fill="#f8fbff"/>
-                <rect y="224" width="420" height="76" fill="#ebd5ac"/>
-                <rect x="40" y="44" width="340" height="146" rx="14" fill="#ffffff" stroke="#d7e5f2"/>
-                <rect x="66" y="66" width="38" height="100" rx="6" fill="#3f86de"/>
-                <rect x="110" y="82" width="38" height="84" rx="6" fill="#ffd24e"/>
-                <rect x="154" y="70" width="38" height="96" rx="6" fill="#ef7a72"/>
-                <rect x="198" y="90" width="38" height="76" rx="6" fill="#7dc48a"/>
-                <rect x="242" y="74" width="38" height="92" rx="6" fill="#7c8cff"/>
-                <rect x="286" y="88" width="38" height="78" rx="6" fill="#f3a35d"/>
-                <circle cx="150" cy="206" r="12" fill="#f1c39e"/>
-                <rect x="142" y="218" width="16" height="32" rx="8" fill="#245ea8"/>
-                <circle cx="270" cy="206" r="12" fill="#f1c39e"/>
-                <rect x="262" y="218" width="16" height="32" rx="8" fill="#45a06e"/>
-              </svg>
+              <img src="yoga.jpeg" alt="Yoga Day Photo">
             </div>
             <figcaption class="gallery-caption">
               <strong>अंतरराष्ट्रीय योग दिवस</strong>
@@ -1392,26 +1233,18 @@
           <div class="stack">
             <div class="map-card">
               <h3>Campus Location</h3>
-              <svg viewBox="0 0 520 290" role="img" aria-label="Map illustration showing school location">
-                <rect width="520" height="290" fill="#eef5ff"/>
-                <path d="M0 188C88 148 138 228 235 190c92-36 142-100 285-50v150H0z" fill="#dbecc8"/>
-                <path d="M82 0h112L118 290H0V142z" fill="#dbe6f3" opacity=".9"/>
-                <path d="M301 0h110l-72 290H232z" fill="#dbe6f3" opacity=".8"/>
-                <path d="M0 126h520" stroke="#ffffff" stroke-width="14"/>
-                <path d="M222 0v290" stroke="#ffffff" stroke-width="14"/>
-                <path d="M390 40L474 124" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
-                <g>
-                  <path d="M368 135c0-22 16-38 38-38s38 16 38 38c0 24-38 67-38 67s-38-43-38-67z" fill="#245ea8"/>
-                  <circle cx="406" cy="135" r="13" fill="#fff"/>
-                </g>
-                <rect x="355" y="202" width="112" height="48" rx="14" fill="#fff" stroke="#d7e5f2"/>
-                <text x="411" y="232" text-anchor="middle" font-size="16" font-family="sans-serif" fill="#18324b">Shivkali Shishu Vidya Mandir</text>
-              </svg>
+              <iframe 
+                src="https://maps.google.com/maps?q=QC66+M56,+Bhagatdih,+Dhanbad,+Jharkhand+828111&z=15&output=embed"
+                 width="100%" 
+                 height="300" 
+                 style="border:0;" 
+                 loading="lazy">
+              </iframe>
               <p style="margin-top:.7rem;color:var(--muted);">QC66+M56, Purulia - Dhanbad Rd, Bhagatdih, Dhanbad, Jharkhand 828111</p>
             </div>
           </div>
 
-          <form class="form-card" id="contactForm">
+          <form class="form-card" action="https://formspree.io/f/xgopvegb" method="POST">
             <h3>Send us a Message</h3>
 
             <div class="field">
